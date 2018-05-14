@@ -1,0 +1,39 @@
+body {
+    background-color: #eee;
+    font-family: 'Lato'
+}
+
+.heading { /*table's first row bold and border control*/
+	font-weight: bold;
+	border-bottom-style: double; 
+	border-bottom-color: black;
+	border-width: thick;
+}
+.blue {
+	color: blue;
+}
+.red{
+	color: red;
+}
+.strike{
+	text-decoration: line-through;
+}
+table{
+	text-align: left;
+	border-collapse: collapse;
+}
+div{ /*center align; heading and table left aligned*/
+	width: fit-content;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+h1{
+	font-family: 'Oswald'
+}
+td{
+	border-bottom-style: solid;
+	border-bottom-color: #cccccc;
+	padding: 5px;
+}
